@@ -17,7 +17,7 @@
         <TextField fx:id="txtCapitalInicial" GridPane.rowIndex="1" GridPane.columnIndex="1" />
         <Label text="Tasa de Interés (%):" GridPane.rowIndex="2" GridPane.columnIndex="0" />
         <TextField fx:id="txtTasaInteres" GridPane.rowIndex="2" GridPane.columnIndex="1" />
-        <Button text="Calcular Período de Tiempo"
+        <Button text="Calcular Período de Tiempo" fx:id="btnCalcularPeriodoTiempo"
                 GridPane.rowIndex="3" GridPane.columnIndex="0" GridPane.columnSpan="2"
                 maxWidth="Infinity"/>
         <Label text="Período de Tiempo (años):" GridPane.rowIndex="4" GridPane.columnIndex="0" />

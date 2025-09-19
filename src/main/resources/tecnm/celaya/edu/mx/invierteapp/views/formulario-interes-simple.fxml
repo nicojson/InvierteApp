@@ -24,7 +24,7 @@
         <Label text="Tiempo (t) (años):" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
         <TextField fx:id="txtTiempo" promptText="Ingrese el tiempo en años" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
 
-        <Button text="Calcular" onAction="#calcularInteresSimple" GridPane.rowIndex="6" GridPane.columnIndex="0" />
+        <Button fx:id="btnCalcularInteres" text="Calcular"  GridPane.rowIndex="6" GridPane.columnIndex="0" />
 
         <Label text="Interés Generado (I):" GridPane.rowIndex="7" GridPane.columnIndex="0"/>
         <TextField fx:id="txtInteresGenerado" editable="false" GridPane.rowIndex="8" GridPane.columnIndex="0"/>

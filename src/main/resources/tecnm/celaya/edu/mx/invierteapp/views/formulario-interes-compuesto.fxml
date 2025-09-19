@@ -20,7 +20,7 @@
         <Label text="Número de Períodos:" GridPane.rowIndex="2" GridPane.columnIndex="0" />
         <TextField fx:id="txtNumeroPeriodos" GridPane.rowIndex="2" GridPane.columnIndex="1" />
 
-        <Button text="Calcular Monto Final"
+        <Button text="Calcular Monto Final" fx:id="btnCalcularMontoFinal"
                 GridPane.rowIndex="3" GridPane.columnIndex="0" GridPane.columnSpan="2"
                 maxWidth="Infinity"/>
 
