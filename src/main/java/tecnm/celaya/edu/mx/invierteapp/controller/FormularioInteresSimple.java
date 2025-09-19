@@ -47,10 +47,4 @@ public class FormularioInteresSimple implements Initializable {
             txtMontoTotal.setText("Error");
         }
     }
-
-
-
-
-
-
 }
