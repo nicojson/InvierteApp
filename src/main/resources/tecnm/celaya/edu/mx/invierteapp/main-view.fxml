@@ -5,9 +5,39 @@
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.scene.control.Button?>
-<VBox fx:id="mainContainer" alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="tecnm.celaya.edu.mx.invierteapp.MainController">
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
 
+<?import javafx.scene.layout.BorderPane?>
 
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.GridPane?>
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="tecnm.celaya.edu.mx.invierteapp.MainController">
+   <top>
+      <AnchorPane BorderPane.alignment="CENTER" >
+          <HBox minWidth="600" minHeight="100" alignment="BASELINE_CENTER" spacing="24">
+              <Button fx:id="homeButton"  mnemonicParsing="false" text="Home" />
+              <Label  text="InvierteApp" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
+              <ImageView fx:id="logoImageView" fitWidth="60" fitHeight="60" preserveRatio="true" >
+                  <image>
+                      <Image url="@../invierteapp/images/binance-logo.png"/>
+                  </image>
+              </ImageView>
+          </HBox>
+      </AnchorPane>
+   </top>
+   <center>
+      <VBox fx:id="mainContainer" alignment="CENTER" spacing="20.0" BorderPane.alignment="CENTER">
 
-</VBox>
+      </VBox>
+   </center>
+    <bottom>
+        <AnchorPane prefHeight="50.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label text="© 2025 InvierteApp. All rights reserved. para el mundo"/>
+            </children>
+        </AnchorPane>
+    </bottom>
+</BorderPane>

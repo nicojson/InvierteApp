@@ -4,6 +4,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.VBox;
 import tecnm.celaya.edu.mx.invierteapp.controller.ButtonsMain;
 
@@ -13,8 +15,11 @@ import java.util.ResourceBundle;
 public class MainController implements Initializable {
 
 
+    public ImageView logoImageView;
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+
         showButtonsMain();
     }
 
@@ -114,4 +119,5 @@ public class MainController implements Initializable {
         backButton.setAlignment(Pos.CENTER);
         return backButton;
     }
+
 }
